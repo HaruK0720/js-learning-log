@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>テキスト変更ボタン</title>
+</head>
+<body>
+
+  <!-- ボタンをクリックすると changeText 関数が実行される -->
+  <button onclick="changeText()">クリック</button>
+
+  <!-- テキストを変更する対象の要素 -->
+  <p id="text">元の文字</p>
+
+  <script>
+    // changeText 関数は、ボタンがクリックされたときに呼び出される
+    function changeText() {
+      // デバッグ用：アラートを表示して関数が呼ばれたことを確認
+      alert("ボタンが押されました！");
+
+      // id="text" の要素のテキストを変更する
+      document.getElementById("text").textContent = "変更後の文字";
+    }
+  </script>
+
+</body>
+</html>
