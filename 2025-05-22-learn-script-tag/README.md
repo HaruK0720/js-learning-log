@@ -35,7 +35,7 @@ JavaScriptをHTMLに記述して動かす基本的な方法を理解する。
 <br>
 
 ## 📂 使用ファイル
-- `index.html`：HTMLの基本構造とscriptの使い方・実用例
+- [index.html](./index.html)   ：HTMLの基本構造とscriptの使い方・実用例
 
   <br>
   
